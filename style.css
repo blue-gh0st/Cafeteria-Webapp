@@ -1,0 +1,43 @@
+body {
+	color: #2e3440;
+	margin: auto;
+	background-color: #eceff4;
+	text-align: center;
+	font-size: 32px;
+}
+
+.LoginForm {
+	font-size: 16px;
+	border: 3px solid #3b4252;
+	margin: 0 auto;
+  	top: 50%;
+	width: 50%;
+}
+
+.LoginFields {
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #bf616a;
+}
+
+.LoginFields:focus {
+	border: none;
+	transition: 0.5s;
+	border-bottom: 2px solid #81a1c1;
+	outline: none;
+}
+
+.LoginButton {
+	background-color: #eceff4;
+	border: 2px solid #3b4252;
+	padding: 12px 6px;
+	color: #2e3440; 
+	border-radius: 4px;
+}
+
+.LoginButton:hover {
+	background-color: #d8dee9;
+	color: #2e3440;
+}
