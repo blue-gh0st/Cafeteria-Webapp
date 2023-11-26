@@ -14,9 +14,20 @@ body {
 .CommonBox {
 	border: 3px solid #3b4252;
 	border-radius: 5px;
-	margin: 5 auto;
-	width: 50%;
-	background-color: #d8dee9;
+	margin: 15px auto;
+	padding: 5px auto;
+	width: 75%;
+	background-color: #81a1c1;
+}
+
+.Borderless {
+	border: none;
+}
+
+.CommonTitle {
+	display: table;
+	background-color: #5e81ac;
+	margin: 10px;
 }
 
 .CommonContent {
@@ -43,7 +54,7 @@ input:valid {
 	outline: none;
 }
 
-.LoginButton {
+button {
 	background-color: #eceff4;
 	border: 2px solid #3b4252;
 	padding: 12px 6px;
@@ -69,13 +80,5 @@ input:valid {
 	font-size: 30px;
 	background-color: #4c566a;
 	color: #eceff4;
-	padding: 5px;
-}
-
-.QABox {
-	border-radius: 5px;
-	border: 2px solid #2e3440;
-	width: 45%;
-	margin: 5px;
 	padding: 5px;
 }
