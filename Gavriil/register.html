@@ -1,0 +1,39 @@
+<!-- Hackathon Berlin 25.11.23 - 26.11.23           -->
+<!-- Code below is licensed under the MIT license   -->
+<!-- Credit: Gavriil Rodygin                        -->
+
+
+<html>
+	<head>
+		<title>Register</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="./handle_login.js"></script>
+	</head>
+	<body>
+		Bitte regestrieren Sie sich:
+		<br>
+		<div class="CommonBox Centered">
+			<br>
+			<label for="uname"><b>Benutzername</b></label>
+			<br>
+			<input type="text" placeholder="Benutzername eingeben" name="uname" class="LoginFields" required id="username">
+			<br>
+			<label for="passwd"><b>Passwort</b></label>
+			<br>
+			<input type="password" placeholder="Passwort eingeben" name="passwd" class="LoginFields" required id="password">
+			<br>
+			<label for="passwd_repeat"><b>Passwort wiederholen</b></label>
+			<br>
+			<input type="password" placeholder="Passwort widerholen" name="passwd_repeat" class="LoginFields" required id="password_repeat">
+			<br>
+			<label for="email"><b>Email</b></label>
+			<br>
+			<input type="email" id="email" name="email" class="LoginFields" placeholder="Email eingeben" required>
+			<br>
+			<br>
+			<button type="button" class="LoginButton" onclick="register()">Benutzer Erstellen!</button>
+			<br>
+			<br>
+		</div>
+	</body>
+</html>
