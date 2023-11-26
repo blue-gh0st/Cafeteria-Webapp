@@ -1,5 +1,6 @@
 table {
   border-collapse: collapse;
+  margin: 0 auto;
 }
 td,
 th {
@@ -8,26 +9,129 @@ th {
 }
 
 .collapsible {
-  background-color: #26418b;
+  background-color: #434c5e;
   color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border-color: rgb(18, 36, 175);
-  text-align: left;
+  border-color: #2e3440(18, 36, 175);
+  text-align: center;
   outline: none;
   font-size: 15px;
 }
 
 .active,
 .collapsible:hover {
-  background-color: #3a4f88;
+  background-color: #747f95;
 }
 
 .content {
+  font: sans_serif;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #d8dee9;
+}
+
+/* Hackathon Berlin 25.11.23 - 26.11.23
+ * Code below is licensed under the MIT license.
+ * Credit: Gavriil Rodygin
+*/
+
+body {
+  color: #2e3440;
+  margin: auto;
+  background-color: #eceff4;
+  text-align: center;
+  font-size: 26px;
+}
+
+.CommonBox {
+  border: 3px solid #3b4252;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px auto;
+  width: 50%;
+  background-color: #eceff4;
+}
+
+.Borderless {
+  border: none;
+}
+
+.CommonTitle {
+  display: table;
+  background-color: #5e81ac;
+  margin: 10px;
+}
+
+.CommonContent {
+  padding: 0px 15%;
+  margin-top: 5px;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #bf616a;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:valid {
+  border: none;
+  transition: 0.5s;
+  border-bottom: 2px solid #81a1c1;
+  outline: none;
+}
+
+button {
+  background-color: #eceff4;
+  border: 2px solid #3b4252;
+  padding: 12px 6px;
+  color: #2e3440;
+  border-radius: 4px;
+  transition: 0.5s;
+  width: 130px;
+}
+
+button:hover {
+  background-color: #4c566a;
+  color: #d8dee9;
+  transition: 0.5s;
+}
+
+.header {
+  background-color: #3b4252;
+  font-size: 26px;
+  color: #a3be8c;
+  padding: 10px;
+}
+
+.Title {
+  font-size: 20px;
+  background-color: #4c566a;
+  color: #eceff4;
+  padding: 5px;
+}
+
+.Box {
+  background-color: #000000;
+}
+
+.HeaderBox {
+  background-color: #d8dee9;
+  padding: 10px;
+}
+
+.extras {
+  font: 1.2em sans-serif;
+  text-align: center;
+  background-color: #3b4252;
+  color: #202327;
 }
