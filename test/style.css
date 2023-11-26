@@ -1,0 +1,153 @@
+/* Hackathon Berlin 25.11.23 - 26.11.23
+ * Code below is licensed under the MIT license.
+ * Credit: Gavriil Rodygin
+*/ 
+
+body {
+	color: #2e3440;
+	margin: auto;
+	background-color: #eceff4;
+	text-align: center;
+	font-size: 26px;
+	font-family: sans-serif;
+}
+
+.CommonBox {
+	border: 3px solid #3b4252;
+	border-radius: 5px;
+	margin: 15px auto;
+	padding: 5px auto;
+	width: 75%;
+	background-color: #e5e9f0;
+	text-align: left;
+	font-size: 20px;
+}
+
+.Centered {
+	text-align: center;
+}
+
+.AsFooter {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	flex-flow: row wrap;
+	width: 100%;
+	margin-bottom: 0%;
+	text-align: right;
+	float: right;
+}
+
+.Right {
+	margin-left: auto;
+}
+
+.CommonList {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: #e5e9f0;
+
+}
+
+.Borderless {
+	border: none;
+}
+
+.CommonTitle {
+	width: 100%;
+	font-size: 24px;
+	display: table;
+	background-color: #d8dee9;
+	border-radius: 5px;
+}
+
+.CommonContent {
+	padding: 0px 15%;
+	margin-top: 5px;
+}
+
+input {
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #bf616a;
+}
+
+input:focus {
+	outline: none;
+}
+
+input:valid {
+	border: none;
+	transition: 0.5s;
+	border-bottom: 2px solid #81a1c1;
+	outline: none;
+}
+
+button {
+	background-color: #eceff4;
+	border: 2px solid #3b4252;
+	padding: 12px 6px;
+	color: #2e3440; 
+	border-radius: 4px;
+	width: 130px;
+	transition: 0.5s;
+}
+
+button:hover {
+	background-color: #4c566a;
+	color: #d8dee9;
+	transition: 0.5s;
+}
+
+.Header {
+	background-color: #3b4252;
+	font-size: 36px;
+	color: #a3be8c;
+	padding: 10px;
+}
+
+.Title {
+	font-size: 30px;
+	background-color: #4c566a;
+	color: #eceff4;
+	padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td,
+tr {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+.collapsible {
+  background-color: #434c5e;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-color: #2e3440(18, 36, 175);
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #747f95;
+}
+
+.content {
+  font: sans_serif;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #d8dee9;
+}
