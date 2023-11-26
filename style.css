@@ -63,7 +63,7 @@ button {
 	transition: 0.5s;
 }
 
-.LoginButton:hover {
+button:hover {
 	background-color: #4c566a;
 	color: #d8dee9;
 	transition: 0.5s;
