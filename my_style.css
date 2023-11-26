@@ -1,0 +1,67 @@
+/* Hackathon Berlin 25.11.23 - 26.11.23
+ * Code below is licensed under the MIT license.
+ * Credit: Gavriil Rodygin
+*/ 
+
+body {
+	color: #2e3440;
+	margin: auto;
+	background-color: #eceff4;
+	text-align: center;
+	font-size: 32px;
+}
+
+.LoginForm {
+	font-size: 16px;
+	border: 3px solid #3b4252;
+	margin: 5 auto;
+  	/*top: 75%;*/
+	width: 50%;
+}
+
+.LoginFields {
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #bf616a;
+}
+
+.LoginFields:focus {
+	outline: none;
+}
+
+.LoginFields:valid {
+	border: none;
+	transition: 0.5s;
+	border-bottom: 2px solid #81a1c1;
+	outline: none;
+}
+
+.LoginButton {
+	background-color: #eceff4;
+	border: 2px solid #3b4252;
+	padding: 12px 6px;
+	color: #2e3440; 
+	border-radius: 4px;
+	transition: 0.5s;
+}
+
+.LoginButton:hover {
+	background-color: #4c566a;
+	color: #d8dee9;
+	transition: 0.5s;
+}
+
+.Header {
+	background-color: #3b4252;
+	color: #eceff4;
+}
+
+.QABox {
+	border-radius: 5px;
+	border: 2px solid #2e3440;
+	width: 45%;
+	margin: 5px;
+	padding: 5px;
+}
