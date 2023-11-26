@@ -69,6 +69,7 @@ button {
 	padding: 12px 6px;
 	color: #2e3440; 
 	border-radius: 4px;
+	width: 130px;
 	transition: 0.5s;
 }
 
