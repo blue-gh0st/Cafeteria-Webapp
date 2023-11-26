@@ -1,268 +1,81 @@
+/* Hackathon Berlin 25.11.23 - 26.11.23
+ * Code below is licensed under the MIT license.
+ * Credit: Gavriil Rodygin
+*/ 
+
 body {
-  color: #2e3440;
-  margin: auto;
-  background-color: #eceff4;
-  text-align: center;
-  font-size:18px;
-}
-.title {
-  color:#a3be8c;
-  background-color:#2E3440;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:36px;
-}
-.bodyheader {
-  background-color:#e5e9f0;
-}
-.textbodytitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbody {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodytwotitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodytwo {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodythreetitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodythree {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyfourtitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyfour {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyfivetitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyfive {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodysixtitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodysix {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyseventitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyseven {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyeighttitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyeight {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyninetitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodynine {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodytentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyten {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyeleventitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyeleven {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodytwelvetitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodytwelve {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodythirteentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodythirteen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyfourteentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyfourteen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyfifteentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyfifteen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodysixteentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodysixteen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyseventeentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyseventeen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodyeighteentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodyeighteen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodynineteentitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodynineteen {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
-}
-.textbodytwentytitle {
-  display: table;
-  margin:2px;
-  padding:1px;
-  background-color:#81A1C1;
-}
-.textbodytwenty {
-  background-color:#d8dee9;
-  margin:30px;
-  padding:10px;
+	color: #2e3440;
+	margin: auto;
+	background-color: #eceff4;
+	text-align: center;
+	font-size: 26px;
 }
 
-.LoginForm {
-  font-size: 16px;
-  border: 3px solid #3b4252;
-  margin: 0 auto;
-    top: 50%;
-  width: 50%;
+.CommonBox {
+	border: 3px solid #3b4252;
+	border-radius: 5px;
+	margin: 5 auto;
+	width: 50%;
+	background-color: #d8dee9;
 }
-.LoginFields {
-  padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid #bf616a;
+
+.CommonContent {
+	padding: 0px 15%;
+	margin-top: 5px;
 }
-.LoginFields:focus {
-  border: none;
-  transition: 0.5s;
-  border-bottom: 2px solid #81a1c1;
-  outline: none;
+
+input {
+	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #bf616a;
 }
+
+input:focus {
+	outline: none;
+}
+
+input:valid {
+	border: none;
+	transition: 0.5s;
+	border-bottom: 2px solid #81a1c1;
+	outline: none;
+}
+
 .LoginButton {
-  background-color: #eceff4;
-  border: 2px solid #3b4252;
-  padding: 12px 6px;
-  color: #2e3440; 
-  border-radius: 4px;
+	background-color: #eceff4;
+	border: 2px solid #3b4252;
+	padding: 12px 6px;
+	color: #2e3440; 
+	border-radius: 4px;
+	transition: 0.5s;
 }
+
 .LoginButton:hover {
-  background-color: #d8dee9;
-  color: #2e3440;
+	background-color: #4c566a;
+	color: #d8dee9;
+	transition: 0.5s;
+}
+
+.Header {
+	background-color: #3b4252;
+	font-size: 36px;
+	color: #a3be8c;
+	padding: 10px;
+}
+
+.Title {
+	font-size: 30px;
+	background-color: #4c566a;
+	color: #eceff4;
+	padding: 5px;
+}
+
+.QABox {
+	border-radius: 5px;
+	border: 2px solid #2e3440;
+	width: 45%;
+	margin: 5px;
+	padding: 5px;
 }
