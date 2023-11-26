@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MensaBestellung</title>
+    <title>Bestellung</title>
     <script src="node.js"></script>
-    <link rel="stylesheet" type="text/css" href="Bestellungstyle.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-</html>
+
 
 <body>
-  <header>
-    <h1>Bestellung</h1>
+  <div class="header">
+    Cafeteria der Nelson-Mandela-Schule
+  </div>
+  <div class="Title">
+    Bestellung
+  </div>
+<div class="CommonBox">
+  <div class="HeaderBox">
     <h3>Hauptgericht</h3>
-  </header>
-
+  </div>
   <table>
     <tr>
       <td>Montag</td>
@@ -51,7 +56,9 @@
       <td>Cell 4.</td>
     </tr>
   </table>
+</div>
 
+<div class="extras">
   <h2>Extras</h2>
   <button class="collapsible">Alternativen Lunch</button>
   <div class="content">
@@ -151,6 +158,7 @@
       </tr>
     </table>
   </div>
+</div>
 
   <script>
     var coll = document.getElementsByClassName("collapsible");
@@ -169,3 +177,6 @@
     }
   </script>
 </body>
+
+</html>
+
