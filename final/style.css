@@ -1,6 +1,6 @@
 /* Hackathon Berlin 25.11.23 - 26.11.23
  * Code below is licensed under the MIT license.
- * Credit: Gavriil Rodygin
+ * Credit: Gavriil Rodygin, Sehnyu
 */ 
 
 body {
@@ -100,6 +100,20 @@ button:hover {
 	background-color: #4c566a;
 	color: #d8dee9;
 	transition: 0.5s;
+}
+
+padding{
+	width: 3%;
+}
+
+.padding{
+	color: #81a1c1;
+	display: table;
+	align-self: left;
+	
+	height: 3px;
+	font-size: 1px;
+	
 }
 
 .Header {
