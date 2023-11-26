@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bestellung</title>
-    <script src="node.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
@@ -30,52 +29,52 @@
 
     <tr>
       <td>Dienstag</td>
-      <td>Cell 2.</td>
-      <td>Cell 3.</td>
-      <td>Cell 4.</td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
     </tr>
 
     <tr>
       <td>Mitwoch</td>
-      <td>Cell 2.</td>
-      <td>Cell 3.</td>
-      <td>Cell 4.</td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
     </tr>
 
     <tr>
       <td>Donnerstag</td>
-      <td>Cell 2.</td>
-      <td>Cell 3.</td>
-      <td>Cell 4.</td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
     </tr>
 
     <tr>
       <td>Fritag</td>
-      <td>Cell 2.</td>
-      <td>Cell 3.</td>
-      <td>Cell 4.</td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
+      <td><button>placeholder</button></td>
     </tr>
   </table>
 </div>
 
 <div class="extras">
-  <h2>Extras</h2>
+  <h4>Extras</h4>
   <button class="collapsible">Alternativen Lunch</button>
   <div class="content">
     <table>
       <tr>
         <td>Beilagen</td>
-        <td><button class="editbtn">Mozarella</button></td>
-        <td><button class="editbtn">Fischstäbchen</button></td>
-        <td><button class="editbtn">Potatoe wedges</button></td>
-        <td><button class="editbtn">Geflügenwiener</button></td>
+        <td><button>Mozarella</button></td>
+        <td><button>Fischstäbchen</button></td>
+        <td><button>Potatoe wedges</button></td>
+        <td><button>Geflügenwiener</button></td>
       </tr>
       <tr>
         <td>Hauptgerichte</td>
-        <td><button class="editbtn">Germknödel</button></td>
-        <td><button class="editbtn">Pizza Magarita</button></td>
-        <td><button class="editbtn">Kartoffelpuller mit Apfelmus</button></td>
-        <td><button class="editbtn">Gemüsebratling</button></td>
+        <td><button>Germknödel</button></td>
+        <td><button>Pizza Magarita</button></td>
+        <td><button>Kartoffelpuffer</button></td>
+        <td><button>Gemüsebratling</button></td>
       </tr>
       <tr>
         <td>Vegan</td>
@@ -86,10 +85,10 @@
       </tr>
       <tr>
         <td>Salat</td>
-        <td><button class="editbtn">Salat</button></td>
-        <td><button class="editbtn">Nudelsalat</button></td>
-        <td><button class="editbtn">Kartoffelsalat</button></td>
-        <td><button class="editbtn">Ruculasalat</button></td>
+        <td><button>Salat</button></td>
+        <td><button>Nudelsalat</button></td>
+        <td><button>Kartoffelsalat</button></td>
+        <td><button>Ruculasalat</button></td>
       </tr>
     </table>
   </div>
@@ -98,32 +97,32 @@
     <table>
       <tr>
         <td>Wasser</td>
-        <td><button class="editbtn">Spritzig</button></td>
-        <td><button class="editbtn">Still</button></td>
+        <td><button>Spritzig</button></td>
+        <td><button>Still</button></td>
       </tr>
       <tr>
         <td>Gäsner</td>
-        <td><button class="editbtn">Tropic</button></td>
-        <td><button class="editbtn">Orange/button></td>
+        <td><button>Tropic</button></td>
+        <td><button>Orange</button></td>
       </tr>
       <tr>
         <td>Club-Matte</td>
-        <td><button class="editbtn">Classic</button></td>
-        <td><button class="editbtn">Granapfel</button></td>
+        <td><button>Classic</button></td>
+        <td><button>Granapfel</button></td>
       </tr>
       <tr>
         <td>Schörle</td>
-        <td><button class="editbtn">Apfelschörle</button></td>
-        <td><button class="editbtn">Mandarin Mango</button></td>
+        <td><button>Apfelschörle</button></td>
+        <td><button>Mandarin Mango</button></td>
       </tr>
     </table>
   </div>
   <button class="collapsible">Snacks</button>
   <div class="content">
     <table>
-      <td><button class="editbtn">Laugenbretzel</button></td>
-      <td><button class="editbtn">Laugenstange mit Butter</button></td>
-      <td><button class="editbtn">Laugenstange mit Käse</button></td>
+      <td><button>Laugenbretzel</button></td>
+      <td><button>Laugenstange mit Butter</button></td>
+      <td><button>Laugenstange mit Käse</button></td>
       </tr>
     </table>
   </div>
@@ -131,11 +130,11 @@
   <div class="content">
     <table>
       <tr>
-        <td><button class="editbtn">Schoko Donut</button></td>
-        <td><button class="editbtn">Franzbrötchen</button></td>
-        <td><button class="editbtn">Käsekuchen</button></td>
-        <td><button class="editbtn">Cookie</button></td>
-        <td><button class="editbtn">Schokocroissant</button></td>
+        <td><button>Schoko Donut</button></td>
+        <td><button>Franzbrötchen</button></td>
+        <td><button>Käsekuchen</button></td>
+        <td><button>Cookie</button></td>
+        <td><button>Schokocroissant</button></td>
       </tr>
     </table>
   </div>
@@ -144,17 +143,17 @@
     <table>
       <tr>
         <td>Veggie</td>
-        <td><button class="editbtn">Champagnionrahm</button></td>
-        <td><button class="editbtn">Linsenbolognese</button></td>
-        <td><button class="editbtn">Tomatensoße</button></td>
-        <td><button class="editbtn">Grüne Pesto</button></td>
+        <td><button>Champagnionrahm</button></td>
+        <td><button>Linsenbolognese</button></td>
+        <td><button>Tomatensoße</button></td>
+        <td><button>Grüne Pesto</button></td>
       </tr>
       <tr>
         <td>Fleisch</td>
-        <td><button class="editbtn">Rindfleisch Bolognese/button></td>
-        <td><button class="editbtn">Schinkensahne Soße</button></td>
-        <td><button class="editbtn">Pelemi mit Sauerrahm</button></td>
-        <td><button class="editbtn">Lasagne</button></td>
+        <td><button>Rindfleisch Bolognese</button></td>
+        <td><button>Schinkensahne Soße</button></td>
+        <td><button>Pelemi mit Sauerrahm</button></td>
+        <td><button>Lasagne</button></td>
       </tr>
     </table>
   </div>
