@@ -1,0 +1,61 @@
+<!-- Hackathon Berlin 25.11.23 - 26.11.23           -->
+<!-- Code below is licensed under the MIT license   -->
+<!-- Credit: Gavriil Rodygin                        -->
+
+
+<html>
+	<head>
+		<title>Bookfood - Login</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="./handle_login.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<b>Cafeteria der Nelson-Mandela-Schule</b>
+		</div>
+		<div class="Title">
+			Login
+		</div>
+		Bitte loggen Sie sich ein:
+		<br>
+		<div class="CommonBox Centered">
+			<br>
+			<label for="uname"><b>Benutzername</b></label>
+			<br>
+			<input type="text" placeholder="Benutzername eingeben" name="uname" required id="username">
+			<br>
+			<label for="passwd"><b>Passwort</b></label>
+			<br>
+			<input type="password" placeholder="Passwort eingeben" name="passwd" required id="password">
+			<br>
+			<label for="email"><b>Email</b></label>
+			<br>
+			<input type="email" id="email" name="email" placeholder="Email eingeben" required> 
+			<br>
+			<br>
+			<a href="./register.html"><i>Noch kein Benutzer?</i></a>
+			<br>
+			<a href="./reset.html"><i>Passwort vergessen?</i></a>
+			<br>
+			<br>
+			<button type="button" onclick="get_credentials()">Log mich ein!</button>
+			<br>
+			<br>
+		</div>
+		<footer>
+            <div class="CommonBox Borderless AsFooter">
+              <div class="contact">
+                <p><b>Cafeteria in der Nelson-Mandela-Schule</b></p>
+                Kontakt: info@bookfood.de
+            </div>
+              <ul class="Right">
+                <li class="CommonList"><button href="#"><b>Homepage</b></button></li>
+                <li class="CommonList"><button href="#"><b>Hilfe</b></button></li>
+                <li class="CommonList"><button href="#"><b>Bestellung</b></button></li>
+                <li class="CommonList"><button href="#"><b>Profile</b></button></li>
+              </ul>
+            </div> 
+        </footer>  
+	</body>
+
+</html>
